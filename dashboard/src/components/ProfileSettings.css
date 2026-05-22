@@ -1,0 +1,124 @@
+.profile-settings {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: var(--bg-light);
+}
+
+.settings-container {
+  background: var(--bg-white);
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 600px;
+  box-shadow: var(--shadow-md);
+}
+
+.settings-container h2 {
+  color: var(--text-dark);
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 1.5rem 0;
+}
+
+.setting-item {
+  margin-bottom: 1.5rem;
+}
+
+.setting-item label {
+  display: block;
+  color: var(--text-dark);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.setting-item input,
+.setting-item select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  color: var(--text-dark);
+}
+
+.input-editable {
+  background-color: var(--bg-white);
+  border-color: var(--primary-blue);
+  cursor: text;
+}
+
+.input-editable:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(15, 111, 232, 0.1);
+  border-color: var(--primary-blue);
+}
+
+.input-disabled {
+  background-color: var(--bg-card);
+  cursor: not-allowed;
+  color: var(--text-gray);
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  flex: 1;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-blue {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, #0855d0 100%);
+  color: white;
+  box-shadow: 0 2px 4px rgba(15, 111, 232, 0.3);
+}
+
+.btn-blue:hover {
+  box-shadow: 0 4px 8px rgba(15, 111, 232, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-grey {
+  background: var(--border-light);
+  color: var(--text-gray);
+}
+
+.btn-grey:hover {
+  background: var(--bg-card);
+  color: var(--text-dark);
+}
+
+.success-message {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
