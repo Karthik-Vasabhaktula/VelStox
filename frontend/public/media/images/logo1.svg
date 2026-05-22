@@ -1,0 +1,54 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="380"
+  height="50"
+  viewBox="0 0 520 80"
+  fill="none"
+>
+  <defs>
+    <linearGradient id="velGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563FF"/>
+      <stop offset="50%" stop-color="#2F80ED"/>
+      <stop offset="100%" stop-color="#35D6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- NEW ICON -->
+  <g transform="translate(5,5)">
+    <path
+      d="M20 55 L40 15 L60 35 L80 5"
+      stroke="url(#velGradient)"
+      stroke-width="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <path
+      d="M72 8 L80 5 L77 14"
+      stroke="url(#velGradient)"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Candles -->
+    <rect x="28" y="30" width="8" height="18" rx="2" fill="url(#velGradient)"/>
+    <rect x="46" y="22" width="8" height="26" rx="2" fill="url(#velGradient)"/>
+    <rect x="64" y="14" width="8" height="34" rx="2" fill="url(#velGradient)"/>
+  </g>
+
+  <!-- TEXT -->
+  <text
+    x="115"
+    y="53"
+    font-size="42"
+    font-family="Poppins, Arial, sans-serif"
+    font-weight="600"
+    letter-spacing="4"
+    fill="url(#velGradient)"
+  >
+    VELSTOX
+  </text>
+</svg>
