@@ -18,7 +18,7 @@ const ProfileSettings = () => {
   const fetchUserProfile = async () => {
     try {
       setLoading(true);
-      const response = await axios.get("https://velstox.vercel.app/api/user/profile", {
+      const response = await axios.get("https://velstox.onrender.com/api/user/profile", {
         withCredentials: true,
       });
       if (response.data) {
@@ -43,7 +43,7 @@ const ProfileSettings = () => {
       setSaveSuccess(false);
       setError(null);
       await axios.put(
-        "https://velstox.vercel.app/api/user/profile",
+        "https://velstox.onrender.com/api/user/profile",
         {
           username,
           email,
