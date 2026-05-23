@@ -12,7 +12,7 @@ function ProtectedRoute({ children }) {
 
     axios
       .get(
-        "http://localhost:3002/api/auth/me",
+        "https://velstox.onrender.com/api/auth/me",
         {
           withCredentials: true,
         }
@@ -36,7 +36,7 @@ function ProtectedRoute({ children }) {
   }
 
   if (!isAuthenticated) {
-    window.location.href = "http://localhost:3000/login";
+    window.location.href = "https://velstox.vercel.app/login";
     return null;
   }
 
