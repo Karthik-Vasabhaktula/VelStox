@@ -21,8 +21,8 @@ const app = express();
 
 app.use(cors({
     origin: [
-      "http://localhost:3000",
-      "http://localhost:3001",
+        "https://velstox.vercel.app",
+        "https://velstox.onrender.com"
     ],
     credentials: true,
 }));
