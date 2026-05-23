@@ -22,7 +22,7 @@ const app = express();
 app.use(cors({
     origin: [
         "https://velstox.vercel.app",
-        "https://velstox.onrender.com"
+        "https://velstox-dashboard.vercel.app"
     ],
     credentials: true,
 }));
