@@ -21,13 +21,13 @@ function Team() {
         </div>
         <div className="col-6 p-3">
           <p>
-            someone bootstrapped and founded VelStox in 2026 to overcome the
+            bootstrapped and founded VelStox in 2026 to overcome the
             hurdles he faced during his decade long stint as a trader. Today,
             VelStox has changed the landscape of the Indian broking industry.
           </p>
           <p>
-            Connect on <a href="">Homepage</a> / <a href="">TradingQnA</a> /{" "}
-            <a href="">Twitter</a>
+            Connect on <a href="/">Homepage</a> / <a href="/">TradingQnA</a> /{" "}
+            <a href="/">Twitter</a>
           </p>
         </div>
       </div>
