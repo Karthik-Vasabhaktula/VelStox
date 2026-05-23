@@ -23,8 +23,11 @@ function Login() {
         }
       );
 
-      if (response.data && response.data.username) {
-        localStorage.setItem("username", response.data.username);
+      if (response.data && response.data.user) {
+          localStorage.setItem(
+            "username",
+            response.data.user.username
+          );
       }
 
       window.location.href = "https://velstox-dashboard.vercel.app";
