@@ -13,27 +13,27 @@ function Universe() {
         </p>
 
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/datify.png" />
+          <img src="media/images/datify.png" alt="datify"/>
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/datify.png" />
+          <img src="media/images/datify.png" alt="datify"/>
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/datify.png" />
+          <img src="media/images/datify.png" alt="datify"/>
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/datify.png" />
+          <img src="media/images/datify.png" alt="datify"/>
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/datify.png" />
+          <img src="media/images/datify.png" alt="datify"/>
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/datify.png" />
+          <img src="media/images/datify.png" alt="datify"/>
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <button
