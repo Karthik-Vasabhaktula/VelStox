@@ -17,7 +17,7 @@ const TopBar = () => {
   const fetchIndices = async () => {
     try {
       setLoading(true);
-      const response = await axios.get("http://localhost:3002/api/indices", {
+      const response = await axios.get("https://velstox.onrender.com/api/indices", {
         withCredentials: true,
       });
       if (response.data) {
