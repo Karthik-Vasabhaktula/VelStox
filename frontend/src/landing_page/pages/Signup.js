@@ -22,7 +22,10 @@ function Signup() {
           username,
           email,
           password,
-        }
+        },
+        {
+    withCredentials: true,
+  }
       );
 
       alert("Signup successful");
