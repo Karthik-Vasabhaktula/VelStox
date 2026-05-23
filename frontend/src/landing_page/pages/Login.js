@@ -13,7 +13,7 @@ function Login() {
     try {
 
       const response = await axios.post(
-        "http://localhost:3002/api/auth/login",
+        "https://velstox.onrender.com/api/auth/login",
         {
           email,
           password,
@@ -27,7 +27,7 @@ function Login() {
         localStorage.setItem("username", response.data.username);
       }
 
-      window.location.href = "http://localhost:3001";
+      window.location.href = "https://velstox-dashboard.vercel.app";
 
     } catch (error) {
 
