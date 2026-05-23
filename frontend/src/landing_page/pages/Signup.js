@@ -17,7 +17,7 @@ function Signup() {
     try {
 
       await axios.post(
-        "http://localhost:3002/api/auth/signup",
+        "https://velstox.onrender.com/api/auth/signup",
         {
           username,
           email,
