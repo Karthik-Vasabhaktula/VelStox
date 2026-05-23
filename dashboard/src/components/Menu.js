@@ -29,14 +29,14 @@ const Menu = () => {
   try {
 
     await axios.post(
-      "http://localhost:3002/api/auth/logout",
+      "https://velstox.onrender.com/api/auth/logout",
       {},
       {
         withCredentials: true,
       }
     );
 
-    window.location.href = "http://localhost:3000";
+    window.location.href = "https://velstox.vercel.app";
 
   } catch (error) {
     console.log(error);
