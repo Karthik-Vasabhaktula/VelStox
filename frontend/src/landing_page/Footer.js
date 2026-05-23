@@ -6,29 +6,29 @@ function Footer() {
             <div className='container border-top mt-5' style={{ borderTopColor: "rgba(255, 255, 255, 0.1)" }}>
                 <div className='row mt-5'>
                     <div className='col'>
-                    <img src="media/images/logo1.svg" style={{width: "100%"}}/>
+                    <img src="media/images/logo1.svg" alt="logo" style={{width: "100%"}}/>
                     <p className='p-4' style={{ color: "#D1D5DB" }}>&copy;2026, VelStox Broking Ltd.<br/>All rights reserved.</p>
                     </div>
                     <div className='col'>
                         <p style={{ fontWeight: "600", color: "#FFFFFF" }}>Company</p>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>About</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Philosophy</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Careers</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Referral program</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>About</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Philosophy</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Careers</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Referral program</a><br/>
                     </div>
                     <div className='col'>
                         <p style={{ fontWeight: "600", color: "#FFFFFF" }}>Support</p>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Contact us</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Support portal</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>How to file a complaint?</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Status of your complaints</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Contact us</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Support portal</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>How to file a complaint?</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Status of your complaints</a><br/>
                     </div>
                     <div className='col'>
                         <p style={{ fontWeight: "600", color: "#FFFFFF" }}>Account</p>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Open demat account</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Minor demat account</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>NRI demat account</a><br/>
-                        <a href="" style={{ color: "#D1D5DB", textDecoration: "none" }}>Fund transfer</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Open demat account</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Minor demat account</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>NRI demat account</a><br/>
+                        <a href="/" style={{ color: "#D1D5DB", textDecoration: "none" }}>Fund transfer</a><br/>
                     </div>
                 </div>
                 <div className='mt-5' style={{fontSize:"11px", color: "#9CA3AF"}}>
