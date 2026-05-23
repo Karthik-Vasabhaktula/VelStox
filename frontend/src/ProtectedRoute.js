@@ -14,7 +14,7 @@ const ProtectedRoute = ({ children }) => {
 
     try {
       await axios.get(
-        "http://localhost:3002/api/auth/me",
+        "https://velstox.onrender.com/api/auth/me",
         {
           withCredentials: true,
         }
